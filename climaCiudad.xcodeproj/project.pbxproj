@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5545F9E22815021F009B92AA /* ClimaDatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5545F9E12815021F009B92AA /* ClimaDatos.swift */; };
 		55580CBF2813271A00BBA3A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55580CBE2813271A00BBA3A4 /* AppDelegate.swift */; };
 		55580CC12813271A00BBA3A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55580CC02813271A00BBA3A4 /* SceneDelegate.swift */; };
 		55580CC32813271A00BBA3A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55580CC22813271A00BBA3A4 /* ViewController.swift */; };
 		55580CC62813271A00BBA3A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55580CC42813271A00BBA3A4 /* Main.storyboard */; };
 		55580CC82813272100BBA3A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55580CC72813272100BBA3A4 /* Assets.xcassets */; };
 		55580CCB2813272100BBA3A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55580CC92813272100BBA3A4 /* LaunchScreen.storyboard */; };
+		55EAB2B02814B20A008D27B0 /* ClimaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EAB2AF2814B20A008D27B0 /* ClimaManager.swift */; };
+		55FB8CE5281644F200858A22 /* ClimaModelo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FB8CE4281644F200858A22 /* ClimaModelo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5545F9E12815021F009B92AA /* ClimaDatos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaDatos.swift; sourceTree = "<group>"; };
 		55580CBB2813271A00BBA3A4 /* climaCiudad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = climaCiudad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55580CBE2813271A00BBA3A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55580CC02813271A00BBA3A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		55580CC72813272100BBA3A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55580CCA2813272100BBA3A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55580CCC2813272100BBA3A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55EAB2AF2814B20A008D27B0 /* ClimaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaManager.swift; sourceTree = "<group>"; };
+		55FB8CE4281644F200858A22 /* ClimaModelo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaModelo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				55580CC72813272100BBA3A4 /* Assets.xcassets */,
 				55580CC92813272100BBA3A4 /* LaunchScreen.storyboard */,
 				55580CCC2813272100BBA3A4 /* Info.plist */,
+				5545F9E12815021F009B92AA /* ClimaDatos.swift */,
+				55EAB2AF2814B20A008D27B0 /* ClimaManager.swift */,
+				55FB8CE4281644F200858A22 /* ClimaModelo.swift */,
 			);
 			path = climaCiudad;
 			sourceTree = "<group>";
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55FB8CE5281644F200858A22 /* ClimaModelo.swift in Sources */,
 				55580CC32813271A00BBA3A4 /* ViewController.swift in Sources */,
 				55580CBF2813271A00BBA3A4 /* AppDelegate.swift in Sources */,
+				55EAB2B02814B20A008D27B0 /* ClimaManager.swift in Sources */,
+				5545F9E22815021F009B92AA /* ClimaDatos.swift in Sources */,
 				55580CC12813271A00BBA3A4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
