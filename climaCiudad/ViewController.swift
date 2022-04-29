@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate, ClimaManagerDelegado {
    
-    
+    //ag
 
     var climaManager = ClimaManager()
     
