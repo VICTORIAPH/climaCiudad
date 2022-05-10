@@ -60,13 +60,14 @@ struct ClimaManager {
         do {
             let datosDecodificados =  try decodificador.decode(ClimaDatos.self, from: datosClima)
             //imprimir los datos de la API
+            let condicionID = datosDecodificados.weather[0].id
            let id = datosDecodificados.weather[0].id
             let ciudad = datosDecodificados.name
             let temp = datosDecodificados.main.temp
             let temp_min = datosDecodificados.main.temp_min
             let temp_max = datosDecodificados.main.temp_max
             
-            let objClima = ClimaModelo(temp: temp, temp_min: temp_min, temp_max: temp_max, nombreCiudad: ciudad, id: id)
+            let objClima = ClimaModelo( condicionID: condicionID, temp: temp, temp_min: temp_min, temp_max: temp_max, nombreCiudad: ciudad, id: id)
             print(objClima.condicionClima)
             print(objClima.temp_min)
             print(objClima.temp_max)

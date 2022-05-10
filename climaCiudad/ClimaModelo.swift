@@ -7,6 +7,7 @@
 
 import Foundation
 struct ClimaModelo {
+    let condicionID: Int
     let temp: Double
     let temp_min: Double
     let temp_max: Double
@@ -59,6 +60,26 @@ struct ClimaModelo {
         }
        
     }
+    var fondoCondicion: String{
+            switch condicionID{
+            case 200...232:
+                return "tormenta"
+            case 300...321:
+                return "llovizna"
+            case 500...531:
+                return "lluvia"
+            case 600...622:
+                return "nevando"
+            case 700...781:
+                return "soleado"
+            case 800:
+                return "despejado"
+            case 801...831:
+                return "nubes"
+            default:
+                return "cloud.png"
+            }
+        }
     
 
             

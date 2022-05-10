@@ -14,6 +14,7 @@ class ViewController: UIViewController, UITextFieldDelegate, ClimaManagerDelegad
     var climaManager = ClimaManager()
     
     
+    @IBOutlet weak var fondiClima: UIImageView!
     @IBOutlet weak var ciudadTextField: UITextField!
     
     @IBOutlet weak var temp_minLabel: UILabel!
@@ -85,7 +86,9 @@ class ViewController: UIViewController, UITextFieldDelegate, ClimaManagerDelegad
             self.temp_minLabel.text = clima.temp_minString
             self.temp_maxLabel.text = clima.temp_maxString
             self.ciudadLabel.text = clima.nombreCiudad
+            
             self.climaImageView.image = UIImage(systemName: clima.condicionClima)
+            self.fondiClima.image = UIImage(named: clima.fondoCondicion)
         }
     }
  

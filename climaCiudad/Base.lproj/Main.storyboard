@@ -155,6 +155,7 @@
                         <outlet property="ciudadLabel" destination="KYX-kw-VtS" id="Lg7-HL-hEy"/>
                         <outlet property="ciudadTextField" destination="8ke-K2-ImV" id="Eot-tz-Xq5"/>
                         <outlet property="climaImageView" destination="y5Q-Z1-HQK" id="32x-d0-5NF"/>
+                        <outlet property="fondiClima" destination="drO-Ma-sKK" id="vEE-Bv-Gwh"/>
                         <outlet property="temp_maxLabel" destination="Vrc-lh-wfR" id="4Vk-5Y-qD1"/>
                         <outlet property="temp_minLabel" destination="uUR-83-S6J" id="wBV-CO-apF"/>
                         <outlet property="temperaturaLabel" destination="bZc-JK-NFK" id="9xx-jC-jIL"/>
